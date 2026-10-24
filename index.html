@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>bonoregalo.es · Bonos regalo para tu negocio</title>
+<meta name="description" content="Página de bonos regalo y herramienta para crear tarjetas regalo desde el móvil, para centros de estética, peluquerías, gimnasios y fisios. 49 €, pago único.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&amp;family=Manrope:wght@400..700&amp;display=swap">
+<style>
+  :root { --fondo: #FBF6F1; --texto: #3B2A2F; --suave: #6E5A60; --acento: #9C5763; --oro: #C9A45C; --linea: #EADDD3; --blanco: #FFFDFB; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fondo); color: var(--texto); font: 17px/1.6 Manrope, system-ui, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 56px 20px 64px; }
+  h1, h2 { font-family: Fraunces, Georgia, serif; line-height: 1.15; margin: 0 0 16px; }
+  h1 { font-size: clamp(34px, 7vw, 52px); }
+  h2 { font-size: 26px; margin-top: 48px; }
+  .marca { font-family: Fraunces, Georgia, serif; font-size: 20px; color: var(--acento); margin-bottom: 40px; display: inline-flex; gap: 8px; align-items: center; }
+  .marca::before { content: ""; width: 18px; height: 18px; border: 2px solid var(--oro); border-radius: 4px; background: linear-gradient(90deg, transparent 7px, var(--oro) 7px 9px, transparent 9px), linear-gradient(transparent 7px, var(--oro) 7px 9px, transparent 9px); }
+  .entrada { font-size: 20px; color: var(--suave); max-width: 600px; }
+  .lista { display: grid; gap: 14px; padding: 0; list-style: none; }
+  .lista li { background: var(--blanco); border: 1px solid var(--linea); border-radius: 14px; padding: 16px 18px; }
+  .lista strong { display: block; }
+  .precio { background: var(--blanco); border: 1px solid var(--oro); border-radius: 18px; padding: 24px; margin-top: 16px; }
+  .precio .cifra { font-family: Fraunces, Georgia, serif; font-size: 48px; color: var(--acento); line-height: 1; }
+  .ejemplos { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
+  .ejemplos a { display: inline-flex; align-items: center; min-height: 48px; padding: 0 20px; border-radius: 999px; background: var(--acento); color: #fff; text-decoration: none; font-weight: 700; }
+  .ejemplos a + a { background: transparent; color: var(--acento); border: 2px solid var(--acento); }
+  .ejemplos a:focus-visible { outline: 3px solid var(--oro); outline-offset: 3px; }
+  .final { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--linea); color: var(--suave); }
+</style>
+</head>
+<body>
+<main>
+  <div class="marca">bonoregalo.es</div>
+  <h1>Bonos regalo para tu negocio, listos en 24 horas</h1>
+  <p class="entrada">Una página donde tus clientes eligen un regalo y te lo piden por WhatsApp, y una herramienta para hacer la tarjeta regalo desde el móvil en un minuto.</p>
+
+  <h2>Para quién es</h2>
+  <p>Centros de estética, peluquerías y barberías, gimnasios, estudios de pilates, fisios y masajistas que quieren vender más en Navidad, en cumpleaños o el Día de la Madre.</p>
+
+  <h2>Cómo funciona</h2>
+  <ul class="lista">
+    <li><strong>Tus servicios, tus precios.</strong> La página muestra los regalos que elijas, con tu nombre y tu localidad.</li>
+    <li><strong>Te lo piden por WhatsApp.</strong> El cliente elige el regalo y te escribe directamente. Te paga como siempre: Bizum, tarjeta o en el local.</li>
+    <li><strong>La tarjeta regalo, en un minuto.</strong> Escribes el nombre de quien lo recibe y la herramienta crea una tarjeta preciosa con su código, lista para mandar.</li>
+  </ul>
+
+  <h2>Precio</h2>
+  <div class="precio">
+    <div class="cifra">49 €</div>
+    <p>Pago único, sin cuotas. Incluye la página, la herramienta de tarjetas y 12 meses de página activa. Sin comisiones: lo que pagan tus clientes por los bonos es todo para ti.</p>
+  </div>
+
+  <h2>Míralo funcionando</h2>
+  <div class="ejemplos">
+    <a href="ejemplo/">Ejemplo: centro de estética</a>
+    <a href="ejemplo-gimnasio/">Ejemplo: gimnasio</a>
+  </div>
+
+  <p class="final">¿Te ha llegado una demo por WhatsApp? Contesta a ese mensaje y la dejamos lista con tus servicios y precios.</p>
+</main>
+</body>
+</html>
